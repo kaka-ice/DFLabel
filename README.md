@@ -1,7 +1,6 @@
 置顶软件下载链接：[https://github.com/kaka-ice/DFLabel](https://github.com/kaka-ice/DFLabel
 
 SAM模型权重下载链接：
-通过网盘分享的文件：DFLabel_checkpoint
 链接: [https://pan.baidu.com/s/1ddihtybXujQgv1-m0-tqrw](https://pan.baidu.com/s/1ddihtybXujQgv1-m0-tqrw) 提取码: xdin
 
 
