@@ -242,6 +242,6 @@ DFLabel的主要亮点：
 如果DFLabel对您有所帮助，欢迎请我喝杯咖啡，这将激励我持续改进它。
 
 <div align="center">
-<img src="/RMIMG/image14.png" alt="微信赞赏" width="260" />
+<img src="/RMIMG/image14.jpg" alt="微信赞赏" width="260" />
 *感谢您的每一份支持！*
 </div>
