@@ -5,7 +5,9 @@
 
 DFLabel是一款专门为YOLO(Ultralytics)算法而生的标注软件，包括水平矩形标注、多边形标注、关键点标注以及旋转矩形标注，如下所示。
 
-![](https://secure2.wostatic.cn/static/7NjjKbvuQG52fNFpeL5Bax/image.png?auth_key=1763788275-i6g2J5nfAuZtHQWWdyjWG8-0-d682ffabfb40a92047bb10e1b813bbbc)
+<p align="center">
+  <img src="/RMIMG/image1.png" />
+</p>
 
 DFLabel的主要亮点：
 
@@ -19,7 +21,9 @@ DFLabel的主要亮点：
 
 在正式介绍软件如何使用之前，请允许我夹带私货介绍下标注软件的图标和名字，DF源于我柴的首字母缩写，软件的图标也是我柴的剪影，希望DFLabel能够受到大家的欢迎。
 
-![](https://secure2.wostatic.cn/static/vcN6wa1zGpEcccygczbHwx/image.png?auth_key=1763788275-wagnhdKY5G8ctLBpqoYFUA-0-2e898b63f1135a1a717314abbc249ed9)
+<p align="center">
+  <img src="/RMIMG/image2.png" />
+</p>
 
 # 2.标注功能
 
@@ -27,7 +31,9 @@ DFLabel的主要亮点：
 
 整个界面很简单，和LabelImg/Labelme等标注软件的界面长得都差不多，如下所示。
 
-![](https://secure2.wostatic.cn/static/hL2XZSdJwL44yoRdPvTJxM/image.png?auth_key=1763788275-ok5rrNnQVuDEpccyMcWDqE-0-31b757f02ac767aeec6b3e5524c57cc1)
+<p align="center">
+  <img src="/RMIMG/image3.png" />
+</p>
 
 下面是操作介绍：
 
@@ -43,7 +49,9 @@ DFLabel的主要亮点：
 
 **“双击类别—>修改类别—>选择类别—>OK”**
 
-![](https://secure2.wostatic.cn/static/eMrJjQVToJgnwcpu6y7GdT/image.png?auth_key=1763788275-sBdEmaJGfvHkiwyZWeyyCS-0-9ddb99d882d30a053b499d9c59ac45c4)
+<p align="center">
+  <img src="/RMIMG/image4.png" />
+</p>
 
 **4.删除类别：**
 
@@ -67,13 +75,16 @@ DFLabel的主要亮点：
 
 矩形标注、多边形标注、点标注以及旋转框标注可以同时在同一张图片中进行标注，这个没有进行一个互斥限制，如下图中标注了四种类型的标签：
 
-![](https://secure2.wostatic.cn/static/qLpskdoMnjKySR5KSuejuJ/image.png?auth_key=1763788275-kvCa8V7BiGdPKcPDE4y1LM-0-a7154ac9b47548923fc279ce358cb8a0)
-
+<p align="center">
+  <img src="/RMIMG/image5.png" />
+</p>
 生成的json如下所示，水平框（rectangle)保存的点坐标是左上角点和右下角点，旋转框(rotatedRect)保存的是四个顶点的坐标以及旋转角度，多边形（polygon)保存的是多边形的XY坐标，点（points)保存的是点的XY坐标。
 
 这里需要注意一个description，我把每个实例的ID和标签的颜色保存在description中，其中实例ID是每个标签都对应于唯一确定的一个ID，方便我用来删除和管理标签用的；还有一个groupID是组ID，用于实例分割标签和关键点任务的标签中，这个groupID并不是唯一的，是可以取相同的。
 
-![](https://secure2.wostatic.cn/static/2Z7s4QANHaDAY8fMxeuYLC/image.png?auth_key=1763788275-s5iBX24oper2BfaLfeZ3hr-0-9fe13ca39f1575b90f44f17f42de560d)
+<p align="center">
+  <img src="/RMIMG/image6.png" />
+</p>
 
 **1.矩形标注：**
 
@@ -99,7 +110,9 @@ DFLabel的主要亮点：
 
   **标签控制界面中，选中标签—>鼠标右键—>修改类别与GroupID**
 
-  ![](https://secure2.wostatic.cn/static/o5mZeDCbVuEabmwhKXGPCA/image.png?auth_key=1763788275-hoJcDkz3hShrGCWqtzP5sk-0-53ff6effc348909fa3e43b7fa9d50d86)
+<p align="center">
+  <img src="/RMIMG/image7.png" />
+</p>
 
   然后根据实际情况修改就行，最后点击确认。
 
@@ -159,7 +172,9 @@ DFLabel的主要亮点：
 
   **注意：**其实就是torch+torchvision环境，如果你有YOLO的虚拟环境，那么你就可以不用重新配置环境，直接选中YOLO虚拟环境路径下的python.exe就行，比如我的路径在H:\anaconda3\envs\v8_env\python.exe.
 
-  ![](https://secure2.wostatic.cn/static/oHtE5jTZ5tPExExAq6LkDG/image.png?auth_key=1763788999-cAuY8tKuJZyR9hYr8VrzUF-0-d46f399ccbfd39bf5058140c38f01688)
+<p align="center">
+  <img src="/RMIMG/image8.png" />
+</p>
 
   如果你之前没有配置有YOLO环境，可以参考我下面这篇博客来配置一下环境。
 
@@ -175,7 +190,9 @@ DFLabel的主要亮点：
 
   **注意：**我这里是直接显示和保存的都是最大的轮廓点，如下图所示，所视即所得。
 
-  ![](https://secure2.wostatic.cn/static/6B1PYatpNRR63GJAcft986/image.png?auth_key=1763789628-49AFPNTdAvkxNCQtxbbgpT-0-a3c12aa7226370b3226553e88ae7d46d)
+ <p align="center">
+  <img src="/RMIMG/image9.png" />
+</p>
 
 **（2）撤回操作**
 
@@ -189,17 +206,25 @@ DFLabel的主要亮点：
 
 对YOLO的txt标签进行可视化，只需要添加一个classes.txt就行，这个和LabelImg标注软件是保持一样的，软件也会进行提示，只需要在图片路径下添加classes.txt，并键入类别就行了。
 
-![](https://secure2.wostatic.cn/static/s4goGjHZQTDWTSnAoBEHgm/image.png?auth_key=1763790223-tM4EEsgY9QRMimL4p97om4-0-fecd8792b9069aabfe5963f6510791b4)
+<p align="center">
+  <img src="/RMIMG/image10.png" />
+</p>
 
-![](https://secure2.wostatic.cn/static/cdmrgedRo6MYzUQTADXn86/image.png?auth_key=1763790266-92GZvZoXimacb6TXZWdqJg-0-625198771fe23913a1a57ee053d41065)
+<p align="center">
+  <img src="/RMIMG/image11.png" />
+</p>
 
 
 
 对于实例分割的标签，可以按“Space"空格键进行可视化，有时候对于类似于同心圆的项目，这种可视化可以查看标注是否正确。
 
-![](https://secure2.wostatic.cn/static/fR9fc4tuivJ3QBNxjP3EhB/image.png?auth_key=1763790636-czurRpZZwrcoxSW5t4yVmZ-0-e4aadd7cc996cf3ec594ee80bbf5563c)
+<p align="center">
+  <img src="/RMIMG/image12.png" />
+</p>
 
-![](https://secure2.wostatic.cn/static/po61vkbdPRa9GpbSVLomqw/image.png?auth_key=1763790656-s4Lgi6RoarrAKmZPVCSjv5-0-133141af2d29cd06e6760ebc56021051)
+<p align="center">
+  <img src="/RMIMG/image13.png" />
+</p>
 
 # 5.参考资料
 
@@ -211,3 +236,12 @@ DFLabel的主要亮点：
 |**LabelMe**|[https://github.com/wkentaro/labelme](https://github.com/wkentaro/labelme)|分割、目标检测等|
 |**LabelImg**|[https://github.com/tzutalin/labelImg](https://github.com/tzutalin/labelImg)|目标检测|
 |**RoLabelImg**|[https://github.com/cgvict/roLabelImg](https://github.com/cgvict/roLabelImg)|旋转目标检测|
+
+# 6.项目充电
+
+如果DFLabel对您有所帮助，欢迎请我喝杯咖啡，这将激励我持续改进它。
+
+<div align="center">
+<img src="/RMIMG/image14.png" alt="微信赞赏" width="260" />
+*感谢您的每一份支持！*
+</div>
