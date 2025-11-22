@@ -4,6 +4,7 @@ SAM模型权重下载链接：
 通过网盘分享的文件：DFLabel_checkpoint
 链接: [https://pan.baidu.com/s/1ddihtybXujQgv1-m0-tqrw](https://pan.baidu.com/s/1ddihtybXujQgv1-m0-tqrw) 提取码: xdin
 
+
 # 1.DFLabel简介
 
 DFLabel是一款专门为YOLO(Ultralytics)算法而生的标注软件，包括水平矩形标注、多边形标注、关键点标注以及旋转矩形标注，如下所示。
@@ -241,8 +242,8 @@ DFLabel的主要亮点：
 |**RoLabelImg**|[https://github.com/cgvict/roLabelImg](https://github.com/cgvict/roLabelImg)|旋转目标检测|
 
 # 6.项目充电
-
-如果DFLabel对您有所帮助，欢迎请我喝杯咖啡，这将激励我持续改进它。
+- **📖 我的博客**: 我在这里 [CSDN](https://blog.csdn.net/weixin_45144684) 分享更多技术心得，欢迎来阅读并与我讨论。
+- **☕ 请我喝咖啡**: 如果DFLabel对您有所帮助，欢迎请我喝杯咖啡，这将激励我持续改进它。
 
 <div align="center">
 <img src="/RMIMG/image14.jpg" alt="微信赞赏" width="260" />
