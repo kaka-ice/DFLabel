@@ -243,5 +243,6 @@ DFLabel的主要亮点：
 
 <div align="center">
 <img src="/RMIMG/image14.jpg" alt="微信赞赏" width="260" />
-*感谢您的每一份支持！*
 </div>
+
+*感谢您的每一份支持！*
